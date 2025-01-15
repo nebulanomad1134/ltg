@@ -15,7 +15,7 @@ E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/pr
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-2797
+3068
 Successfully changed project path to: E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/prjfnfnf/Final-Survivor-main
 E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/prjfnfnf/Final-Survivor-main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/pr
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6696]  Target information:
+Player connection [16816]  Target information:
 
-Player connection [6696]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 3543148192 [EditorId] 3543148192 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16816]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 4135062154 [EditorId] 4135062154 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6696] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [6696] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16816] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16816] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 40.82 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 17.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.45f1 (a13dfa44d684)
 [Subsystems] Discovering subsystems at path E:/Unity/Unity 2022.3.45f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Unity 2022.3.45f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Unity 2022.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/Unity 2022.3.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/Unity 2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008836 seconds.
-- Loaded All Assemblies, in  0.841 seconds
+Registered in 0.006707 seconds.
+- Loaded All Assemblies, in  0.543 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.473 seconds
-Domain Reload Profiling: 1312ms
-	BeginReloadAssembly (299ms)
+- Finished resetting the current domain, in  0.385 seconds
+Domain Reload Profiling: 928ms
+	BeginReloadAssembly (200ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (127ms)
-	LoadAllAssembliesAndSetupDomain (314ms)
-		LoadAssemblies (299ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (198ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (306ms)
-			TypeCache.Refresh (303ms)
-				TypeCache.ScanAssembly (271ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (474ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (386ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (384ms)
+		SetupLoadedEditorAssemblies (311ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (14ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (265ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,50 +118,50 @@ Domain Reload Profiling: 1312ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.051 seconds
+- Loaded All Assemblies, in  1.216 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.603 seconds
-Domain Reload Profiling: 2657ms
-	BeginReloadAssembly (192ms)
+- Finished resetting the current domain, in  1.187 seconds
+Domain Reload Profiling: 2400ms
+	BeginReloadAssembly (217ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (768ms)
-		LoadAssemblies (581ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (864ms)
+		LoadAssemblies (661ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (282ms)
-			TypeCache.Refresh (234ms)
-				TypeCache.ScanAssembly (215ms)
-			ScanForSourceGeneratedMonoScriptInfo (33ms)
+		AnalyzeDomain (307ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
 			ResolveRequiredComponents (13ms)
-	FinalizeReload (1605ms)
+	FinalizeReload (1187ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1383ms)
+		SetupLoadedEditorAssemblies (880ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (7ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (1028ms)
-			ProcessInitializeOnLoadMethodAttributes (219ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (653ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 15.77 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6256 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (418.9 KB). Loaded Objects now: 6725.
-Memory consumption went from 231.0 MB to 230.6 MB.
-Total: 12.874800 ms (FindLiveObjects: 2.254000 ms CreateObjectMapping: 0.620300 ms MarkObjects: 9.118000 ms  DeleteObjects: 0.875900 ms)
+Unloading 48 unused Assets / (417.1 KB). Loaded Objects now: 6725.
+Memory consumption went from 231.3 MB to 230.8 MB.
+Total: 5.219400 ms (FindLiveObjects: 0.771500 ms CreateObjectMapping: 0.528200 ms MarkObjects: 3.682100 ms  DeleteObjects: 0.235400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -177,466 +177,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4350.493636 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '74418a6b6181298b5ab8e7235b0d97ff') in 0.126023 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.206882 seconds.
-  path: Assets/Undead Survivor/Sprites/Bullet Enemy.png
-  artifactKey: Guid(b59c439e05192834c8eaf5f74d4c5361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/Bullet Enemy.png using Guid(b59c439e05192834c8eaf5f74d4c5361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'def11664a0ca7fad42ef3d8d2dbb0f3d') in 0.206932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Undead Survivor/Sprites/Farmer 3.png
-  artifactKey: Guid(57a1443e67528144aa07582927559650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/Farmer 3.png using Guid(57a1443e67528144aa07582927559650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2ac25dfc7f81d0579278442768385513') in 0.105077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Undead Survivor/Sprites/Enemy 1.png
-  artifactKey: Guid(3bcb7877229a5334da528f2f0872b5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/Enemy 1.png using Guid(3bcb7877229a5334da528f2f0872b5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a73f9f70c274de5047a47d4f3a8d7d7c') in 0.083030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Undead Survivor/Sprites/Farmer 0.png
-  artifactKey: Guid(99a24620d31e5ce4e823c32d11e17c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/Farmer 0.png using Guid(99a24620d31e5ce4e823c32d11e17c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9347727f9d8f5d28be448ca2bfc4a2ac') in 0.102631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Undead Survivor/Sprites/Tiles.png
-  artifactKey: Guid(9ee30eb7d2f1f404790266ee96a67099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/Tiles.png using Guid(9ee30eb7d2f1f404790266ee96a67099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '50269d95c607f20ed71a652bc63f2d7c') in 0.069480 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Undead Survivor/Sprites/Enemy 2.png
-  artifactKey: Guid(4104ee12b4d54f54b91b3ba875787837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/Enemy 2.png using Guid(4104ee12b4d54f54b91b3ba875787837) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c37f1806eb3f2fe34605d4bd1efc53e6') in 0.075878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Undead Survivor/Sprites/Shopping Cart.png
-  artifactKey: Guid(d60cfb8ea82467745a5e185355a7e284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/Shopping Cart.png using Guid(d60cfb8ea82467745a5e185355a7e284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '350c1d5423794220b241c5ea6a9ccdf9') in 0.054935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.729792 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/decor_8x8.png
-  artifactKey: Guid(732e219e7268b484bb5682f9de7918f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/decor_8x8.png using Guid(732e219e7268b484bb5682f9de7918f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b3a5a4610697b36aae1cb6b8802dbefa') in 0.024374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/grass.png
-  artifactKey: Guid(c47d8bb16ab3d5348849c4cca80932ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/grass.png using Guid(c47d8bb16ab3d5348849c4cca80932ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '418c45ddff204bd048053461f518c851') in 0.024134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/water-sheet.png
-  artifactKey: Guid(2eee739123319d8498eaaeee370261e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/water-sheet.png using Guid(2eee739123319d8498eaaeee370261e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '62c166d6b50f7ead9f4a65a0990840cc') in 0.027263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/water5.png
-  artifactKey: Guid(66e237877363195469444e0d8b11648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/water5.png using Guid(66e237877363195469444e0d8b11648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '52c47d6d500c588e3c250eb2bf243a45') in 0.039890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/water4.png
-  artifactKey: Guid(8a32ab2e007e070499d5987c53f5a296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/water4.png using Guid(8a32ab2e007e070499d5987c53f5a296) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1b76d5ceb71225d6b530cef012a5fc72') in 0.034057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/water3.png
-  artifactKey: Guid(cef80f1b48439c64e932177882d63a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/water3.png using Guid(cef80f1b48439c64e932177882d63a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7744dbf97d8f137787b5fe556252b7ab') in 0.039017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/water6.png
-  artifactKey: Guid(fa3dd52ad633a39408f10a72fd2c3ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/water6.png using Guid(fa3dd52ad633a39408f10a72fd2c3ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8a66286c1f5d53d2faeea7ef4b974f54') in 0.038691 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/water2.png
-  artifactKey: Guid(8300ea054bb989a46938c493b9c3a2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/water2.png using Guid(8300ea054bb989a46938c493b9c3a2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '557cdbd7bf68fb88921bf64c19299a6e') in 0.031139 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/water_decorations.png
-  artifactKey: Guid(e0d13760d6face54d8a8755cc6b3d35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/water_decorations.png using Guid(e0d13760d6face54d8a8755cc6b3d35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5b452e221d6984dbdc3be0132e04b863') in 0.043720 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.115562 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Beach_Tile.png
-  artifactKey: Guid(4a923dffc467c7445b0193465e6bae9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Beach_Tile.png using Guid(4a923dffc467c7445b0193465e6bae9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9e55d50fbdbc4a5960803b0da031b8bf') in 0.039387 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/FarmLand_Tile.png
-  artifactKey: Guid(6739d5c2b91e80140a3c448b7703af44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/FarmLand_Tile.png using Guid(6739d5c2b91e80140a3c448b7703af44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'eedf4ec1fe27bd1d8433f9540f59dcd4') in 0.034102 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Path_Middle.png
-  artifactKey: Guid(4eaf720be4e4c954f9f3b2de6a3e6292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Path_Middle.png using Guid(4eaf720be4e4c954f9f3b2de6a3e6292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4502790cc341c7e93057ab0e4f598fca') in 0.033509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Water_Middle.png
-  artifactKey: Guid(7b57f2a205334f547b41d099c023fe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Water_Middle.png using Guid(7b57f2a205334f547b41d099c023fe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9fec8c9d0b66281405a46282f7681f7b') in 0.028870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 51.322482 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Water_Tile.png
-  artifactKey: Guid(3659c7f93eb1ab24cbb465912e4ac37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Water_Tile.png using Guid(3659c7f93eb1ab24cbb465912e4ac37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3be07ff8890880f86154aa941ab1e66f') in 0.025136 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 74.543307 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Water_Tile.png
-  artifactKey: Guid(3659c7f93eb1ab24cbb465912e4ac37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Water_Tile.png using Guid(3659c7f93eb1ab24cbb465912e4ac37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7ecafb14b8615405cdd33c8eb0ccb8ce') in 0.086769 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 75.626355 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab
-  artifactKey: Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab using Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ee93a6f935eee2b99a63a88d2a801910') in 0.347384 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 66.106881 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab
-  artifactKey: Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab using Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f1d8c25f100401598c6587301cb398f5') in 0.040097 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 44
-========================================================================
-Received Import Request.
-  Time since last request: 372.951473 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Path_Tile.png
-  artifactKey: Guid(dcf045ec59dd1764c87c608204b574c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Path_Tile.png using Guid(dcf045ec59dd1764c87c608204b574c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bfc69fca272b07fa6d3c1f946bfdf280') in 0.024899 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 9.693629 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Path_Tile.png
-  artifactKey: Guid(dcf045ec59dd1764c87c608204b574c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Path_Tile.png using Guid(dcf045ec59dd1764c87c608204b574c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '60234e391f9f9dcab90ad0dd8225039e') in 0.090904 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 11.102534 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab
-  artifactKey: Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab using Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f5be057b0ff21264369214cda63e81e5') in 0.059953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 77
-========================================================================
-Received Import Request.
-  Time since last request: 38.773174 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Grass_Middle.png
-  artifactKey: Guid(86f8bfdb4ab5ed84ea86d6db0a79d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Grass_Middle.png using Guid(86f8bfdb4ab5ed84ea86d6db0a79d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8ffcb3716a0f91f1adc753bdbe0e89af') in 0.022387 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.036863 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Grass_Middle.png
-  artifactKey: Guid(86f8bfdb4ab5ed84ea86d6db0a79d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Grass_Middle.png using Guid(86f8bfdb4ab5ed84ea86d6db0a79d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bea4d16b519eaf66e568001bc0eed203') in 0.025006 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 14.186429 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab
-  artifactKey: Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab using Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3e935d81ad7003ae5b685ad917eaaa8f') in 0.048877 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 80
-========================================================================
-Received Import Request.
-  Time since last request: 69.473788 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/FarmLand_Tile.png
-  artifactKey: Guid(6739d5c2b91e80140a3c448b7703af44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/FarmLand_Tile.png using Guid(6739d5c2b91e80140a3c448b7703af44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bce403008a67416eb8d2c91650e74e0d') in 0.028972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Path_Middle.png
-  artifactKey: Guid(4eaf720be4e4c954f9f3b2de6a3e6292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Path_Middle.png using Guid(4eaf720be4e4c954f9f3b2de6a3e6292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8ca7b5c20774769f0d4b74ddb1d29b30') in 0.030449 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 19.148034 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Beach_Tile.png
-  artifactKey: Guid(4a923dffc467c7445b0193465e6bae9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Beach_Tile.png using Guid(4a923dffc467c7445b0193465e6bae9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1d888959777f74f224f19e34c60a9c63') in 0.072437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 9.815266 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/FarmLand_Tile.png
-  artifactKey: Guid(6739d5c2b91e80140a3c448b7703af44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/FarmLand_Tile.png using Guid(6739d5c2b91e80140a3c448b7703af44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5b0448231cf0859ffbad7ffd9daf750d') in 0.061394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 9.673481 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Water_Middle.png
-  artifactKey: Guid(7b57f2a205334f547b41d099c023fe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Water_Middle.png using Guid(7b57f2a205334f547b41d099c023fe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6240b7b98906f514702e4523d9130160') in 0.022265 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 8.072067 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/Path_Middle.png
-  artifactKey: Guid(4eaf720be4e4c954f9f3b2de6a3e6292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Path_Middle.png using Guid(4eaf720be4e4c954f9f3b2de6a3e6292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '76bbfde7c939dbc2feb6285365a77278') in 0.024182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 12.907964 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab
-  artifactKey: Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab using Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '57d5b6f15ccaaf46f262956f59a9bbbc') in 0.053662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 107
-========================================================================
-Received Import Request.
-  Time since last request: 6.708941 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab
-  artifactKey: Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab using Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4f7cafcc38a1f59b7105ac12bb172ddf') in 0.052956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 126
-========================================================================
-Received Import Request.
-  Time since last request: 3.185406 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab
-  artifactKey: Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab using Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fe327dbb6412aea300256786eae87d9e') in 0.050513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 129
-========================================================================
-Received Import Request.
-  Time since last request: 3.065688 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab
-  artifactKey: Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab using Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6bb8a9df699bb6b82acda064684c68a7') in 0.053787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 132
-========================================================================
-Received Import Request.
-  Time since last request: 449.613219 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/floors/carpet.png
-  artifactKey: Guid(63d1fa2d3871a2646b853555356d82a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/floors/carpet.png using Guid(63d1fa2d3871a2646b853555356d82a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c5bd2d690ece2d88146bc3dc497057a6') in 0.038675 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Undead Survivor/Sprites/tilesets/floors/wooden.png
-  artifactKey: Guid(6ccb828b06628a340aee2335a2b87c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Sprites/tilesets/floors/wooden.png using Guid(6ccb828b06628a340aee2335a2b87c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '32adb7b2331a7e4ccef4bbb907936a5f') in 0.039203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 54.142772 seconds.
-  path: Assets/Undead Survivor/Prefabs/Bullet 0.prefab
-  artifactKey: Guid(21a1b8c6dd9314542b2c531050b5b3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Prefabs/Bullet 0.prefab using Guid(21a1b8c6dd9314542b2c531050b5b3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '23251ee2ba76cac2c0ab3a4cc600f092') in 0.043715 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Undead Survivor/Prefabs/EnemyBullet4.prefab
-  artifactKey: Guid(0c7fda7924d488a45acb963ea41e64ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Prefabs/EnemyBullet4.prefab using Guid(0c7fda7924d488a45acb963ea41e64ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ea26e175889ac310d20e1b9a5abe4ea6') in 0.052731 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Undead Survivor/Prefabs/Enemy.prefab
-  artifactKey: Guid(89841933b92e82e46bb9ce1d474f1256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Prefabs/Enemy.prefab using Guid(89841933b92e82e46bb9ce1d474f1256) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bd21ecd7f6e3b65dda7d6f534883c4a1') in 0.086539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 91
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
