@@ -1,0 +1,879 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.45f1 (a13dfa44d684) revision 10567162'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7541 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Unity 2022.3.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/prjfnfnf/Final-Survivor-main
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+2797
+Successfully changed project path to: E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/prjfnfnf/Final-Survivor-main
+E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/prjfnfnf/Final-Survivor-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8392]  Target information:
+
+Player connection [8392]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 3502555592 [EditorId] 3502555592 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8392] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8392] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 51.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.45f1 (a13dfa44d684)
+[Subsystems] Discovering subsystems at path E:/Unity/Unity 2022.3.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/prjfnfnf/Final-Survivor-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3770 MB
+    Driver:   31.0.12042.2002
+Initialize mono
+Mono path[0] = 'E:/Unity/Unity 2022.3.45f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Unity 2022.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Unity 2022.3.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Unity 2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011012 seconds.
+- Loaded All Assemblies, in  0.836 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 1304ms
+	BeginReloadAssembly (355ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (135ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (349ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (210ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (471ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.089 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.132 seconds
+Domain Reload Profiling: 2208ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (775ms)
+		LoadAssemblies (620ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (233ms)
+				TypeCache.ScanAssembly (214ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1132ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (914ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (666ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 10.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6256 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (417.9 KB). Loaded Objects now: 6725.
+Memory consumption went from 231.2 MB to 230.8 MB.
+Total: 6.342300 ms (FindLiveObjects: 0.713500 ms CreateObjectMapping: 0.249300 ms MarkObjects: 4.993100 ms  DeleteObjects: 0.381700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6188.606637 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab
+  artifactKey: Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab using Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cdc326019e9ab0ef2d00fe233df06821') in 0.444792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 22.888808 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_6.asset
+  artifactKey: Guid(eef0f5e60df9bdb49a2f6d8ed968e998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_6.asset using Guid(eef0f5e60df9bdb49a2f6d8ed968e998) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2a86acdffba91474f825933cb5c9b64') in 0.059780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_11.asset
+  artifactKey: Guid(6870c575c2d7d934791432b274d77e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_11.asset using Guid(6870c575c2d7d934791432b274d77e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b81191c7c81e9af2c4033c8a50f63d07') in 0.029915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_15.asset
+  artifactKey: Guid(eac26e72af8b4bf458276d7e876f4209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_15.asset using Guid(eac26e72af8b4bf458276d7e876f4209) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4b5b2a48512e6221f22d1789862ae47f') in 0.037820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_19.asset
+  artifactKey: Guid(535b749e7435c22408e35f3754299d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_19.asset using Guid(535b749e7435c22408e35f3754299d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de6dafbf849468cd34f354bb99ff3b12') in 0.021205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/fences_0.asset
+  artifactKey: Guid(b462952aef3f4e54e9d5e73235184048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/fences_0.asset using Guid(b462952aef3f4e54e9d5e73235184048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '296657f8b6d66ea7597a2a4c8c0f1537') in 0.027476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_18.asset
+  artifactKey: Guid(c88a55ea7aefb1342942368a9c4f003b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_18.asset using Guid(c88a55ea7aefb1342942368a9c4f003b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd5ed8504b53980033dd968c57bd2d12e') in 0.034342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_9.asset
+  artifactKey: Guid(1658ab6f84ee5d747b0a270377da8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_9.asset using Guid(1658ab6f84ee5d747b0a270377da8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1f48030128f0e82b89b07e8622b6e3b') in 0.027728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_13.asset
+  artifactKey: Guid(67cd8e3269fb72c41962c2b2714d52c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/decor_16x16_13.asset using Guid(67cd8e3269fb72c41962c2b2714d52c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c311155123ce846fd5eed904fcd21a56') in 0.029314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.818416 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/fences_1.asset
+  artifactKey: Guid(36d888aaea8e7ba498fb53a08efd718e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/fences_1.asset using Guid(36d888aaea8e7ba498fb53a08efd718e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c5af2a508875d1ebf85bedc5b693fb3') in 0.025503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/fences_4.asset
+  artifactKey: Guid(95da8f23ff5da4444b7dc3f569dac32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/fences_4.asset using Guid(95da8f23ff5da4444b7dc3f569dac32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6fc9ab5c39e2be78b6f57480f2e458c6') in 0.029650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/fences_8.asset
+  artifactKey: Guid(7a62069e695341d489e670bb9449182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/fences_8.asset using Guid(7a62069e695341d489e670bb9449182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '799584e1690d03af0b308c341e97aa6c') in 0.030918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/fences_5.asset
+  artifactKey: Guid(86d8bef6b65d81b499527d7630bb7b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/fences_5.asset using Guid(86d8bef6b65d81b499527d7630bb7b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '34d4800bfd4b07811b2df48d1f67d1b1') in 0.032525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/fences_10.asset
+  artifactKey: Guid(31fccf23e0cacc74fa9084f7c7402cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/fences_10.asset using Guid(31fccf23e0cacc74fa9084f7c7402cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7772a8e271c40a7d0bf24ff495edd609') in 0.030676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/fences_9.asset
+  artifactKey: Guid(1e25239bea993724ba421fe1b5308e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/fences_9.asset using Guid(1e25239bea993724ba421fe1b5308e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4820f2d4e5f156bbac5028462384b7b8') in 0.035301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.260771 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/fences_13.asset
+  artifactKey: Guid(1f4a05038c8db6343a87734494c81c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/fences_13.asset using Guid(1f4a05038c8db6343a87734494c81c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d47a24649844b4a26abd28afba94ed8') in 0.026923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/fences_15.asset
+  artifactKey: Guid(6a5f99b6f86cbb74cb65278e3f90ed27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/fences_15.asset using Guid(6a5f99b6f86cbb74cb65278e3f90ed27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '45d3f3510d0ba55ccba752bcfd642759') in 0.024131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_0.asset
+  artifactKey: Guid(0d8befcd13782b6469b4d4d1bd6f7f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_0.asset using Guid(0d8befcd13782b6469b4d4d1bd6f7f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '14179f21ba0c30e699f122352fff95f1') in 0.024789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_4.asset
+  artifactKey: Guid(58416f784eb0e5649a33b14ff44fdf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_4.asset using Guid(58416f784eb0e5649a33b14ff44fdf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '739059ad9b733af43038203dd16f2949') in 0.025602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_10.asset
+  artifactKey: Guid(a56fbc88dbea3014db100fe4933a48d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_10.asset using Guid(a56fbc88dbea3014db100fe4933a48d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '191c912ff7f13e63e19e35cebb25a287') in 0.025081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_1.asset
+  artifactKey: Guid(7ee1a5ffc54292142a3a430fbaebf171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_1.asset using Guid(7ee1a5ffc54292142a3a430fbaebf171) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9533b2fe8e4ab63eeddb58f75f133227') in 0.031643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_7.asset
+  artifactKey: Guid(267383938b4095b45a542d742724b7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_7.asset using Guid(267383938b4095b45a542d742724b7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5550340c860c1f2ff674d4b8e7fc5780') in 0.026912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_2.asset
+  artifactKey: Guid(ccd820c7932610c4c86114f8a69f055c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_2.asset using Guid(ccd820c7932610c4c86114f8a69f055c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36f91fae7e79d64b530ce59333952e11') in 0.027556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.395309 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_12.asset
+  artifactKey: Guid(2e4bc9a447a8ba54a9aab74faad5bf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_12.asset using Guid(2e4bc9a447a8ba54a9aab74faad5bf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'af28b1ac4167096088f96f41c18961e7') in 0.020655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_16.asset
+  artifactKey: Guid(d9645029ab6da82429216cf53d756463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_16.asset using Guid(d9645029ab6da82429216cf53d756463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9e90b6cab2a752bf85a2f980e579886a') in 0.023337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_15.asset
+  artifactKey: Guid(07638ef986de93842b1cd4b860d54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_15.asset using Guid(07638ef986de93842b1cd4b860d54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4755af2e4dbf259ffa93fd4f72e84aa') in 0.026423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_21.asset
+  artifactKey: Guid(4f3c20b08f30b914e95f5413bebf6dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_21.asset using Guid(4f3c20b08f30b914e95f5413bebf6dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f0179cffb0ce8b772cb71723b9567a65') in 0.026021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_26.asset
+  artifactKey: Guid(d4a057e6ba4cf7348a91a3dcaae4d8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_26.asset using Guid(d4a057e6ba4cf7348a91a3dcaae4d8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a6d6f4f32298fa9b41c1226dc2a54b8c') in 0.024817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_17.asset
+  artifactKey: Guid(69115a8854fadc6478463cb9c03134e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_17.asset using Guid(69115a8854fadc6478463cb9c03134e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e44100f5f136d71bf06f74087dbfd74d') in 0.026300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_20.asset
+  artifactKey: Guid(1c9c0da4a9017224b80012b5c8fef55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_20.asset using Guid(1c9c0da4a9017224b80012b5c8fef55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e172cd2fb846ed884d6e91c53d4357d') in 0.028588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_24.asset
+  artifactKey: Guid(713890968c1f48248b0080f1cd698c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_24.asset using Guid(713890968c1f48248b0080f1cd698c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ceb9f07c2bedf1f154c73a3b43dc355a') in 0.022585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.652848 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_28.asset
+  artifactKey: Guid(41dcc33fbff2fb84dbf8ef8fc580b45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_28.asset using Guid(41dcc33fbff2fb84dbf8ef8fc580b45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '63a96db9f17c3a8e056c5b02ee9c8c74') in 0.032358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_30.asset
+  artifactKey: Guid(2db54927ab01a664caafd51dca5da4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_30.asset using Guid(2db54927ab01a664caafd51dca5da4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b95b2bdc9ee771656a3c1d4adf3b8d0') in 0.031160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_35.asset
+  artifactKey: Guid(ad5124728d408e44eaa6527af4c4bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_35.asset using Guid(ad5124728d408e44eaa6527af4c4bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd82eda6c15fcd4baadb350b871c21f36') in 0.028146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_41.asset
+  artifactKey: Guid(598d0d5c634882146a2ad65625901b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_41.asset using Guid(598d0d5c634882146a2ad65625901b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '711a0cdb3ff13ba211be806310e046bb') in 0.037711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_40.asset
+  artifactKey: Guid(49012f9cbfa729f4abe9e190d51196e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_40.asset using Guid(49012f9cbfa729f4abe9e190d51196e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38241c9afce4cb51c35b465cc87efdd3') in 0.027974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_36.asset
+  artifactKey: Guid(507b7c8605b1a924fb0c2cdb7f7c4c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_36.asset using Guid(507b7c8605b1a924fb0c2cdb7f7c4c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d9ae2fa5341703578842baddb630c00') in 0.030709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_33.asset
+  artifactKey: Guid(c60117b0254494a4ab2733dc2cb7f8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_33.asset using Guid(c60117b0254494a4ab2733dc2cb7f8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e7002195587629e0816f204cee7b1f0') in 0.027480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_43.asset
+  artifactKey: Guid(54b4bfa485d723b46af327fa651a7afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_43.asset using Guid(54b4bfa485d723b46af327fa651a7afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4b24c96fc1825de9c74b93b9d1631871') in 0.031895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.035552 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_44.asset
+  artifactKey: Guid(49a7d1d9ca7ef654f823fe70acb235d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_44.asset using Guid(49a7d1d9ca7ef654f823fe70acb235d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f48b8882fdf0cc9792ba0d039289a086') in 0.025492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_46.asset
+  artifactKey: Guid(3f868c610b211f2418551c16fa2bd5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_46.asset using Guid(3f868c610b211f2418551c16fa2bd5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97ab3001029bb2b07282b3516fb1d80e') in 0.033811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007164 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_48.asset
+  artifactKey: Guid(9afb61a576c772c41b287a226d2471c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_48.asset using Guid(9afb61a576c772c41b287a226d2471c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a38ae9ac3e73241d9ac31df352ff0d5') in 0.022925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_50.asset
+  artifactKey: Guid(16422d13a2588f348ad09f0ebc75894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_50.asset using Guid(16422d13a2588f348ad09f0ebc75894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5663af188fc2349406c772f728e3e518') in 0.022238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_52.asset
+  artifactKey: Guid(32479d11d9f44c54ca2a6cb33cf5563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_52.asset using Guid(32479d11d9f44c54ca2a6cb33cf5563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d8a9b93d9bf57bbc61b8abc7853586f') in 0.018533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_54.asset
+  artifactKey: Guid(3b115c57abd11ce44aa14748ed6ba725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_54.asset using Guid(3b115c57abd11ce44aa14748ed6ba725) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fce9ee0a214744e3811966e78df32509') in 0.018225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_57.asset
+  artifactKey: Guid(311d5ae718983b846a3fd9f52025f678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_57.asset using Guid(311d5ae718983b846a3fd9f52025f678) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '287477cb143464341a8bbb8ab58296b7') in 0.024282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_55.asset
+  artifactKey: Guid(503d6d335d0c0484982162675858f7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_55.asset using Guid(503d6d335d0c0484982162675858f7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0b6a6b9e0f02e7ae03b15decbbe81f1a') in 0.032669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.135507 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_60.asset
+  artifactKey: Guid(03cfe5e0ea6dcb1469fcb85ce4ade7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_60.asset using Guid(03cfe5e0ea6dcb1469fcb85ce4ade7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd1991c6e9e8e91018041feaefc3b2a70') in 0.018011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_62.asset
+  artifactKey: Guid(949e901b04f55074a857387902252c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_62.asset using Guid(949e901b04f55074a857387902252c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '94fbf0f5df0fbdbdd95f23585d109e71') in 0.020011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_64.asset
+  artifactKey: Guid(0d7ac02bed9292f4898201623aaa157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_64.asset using Guid(0d7ac02bed9292f4898201623aaa157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a716923bd4a2b0709363cebc55bf3a4e') in 0.018520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Undead Survivor/Tiles/TileMap2_3/plains_66.asset
+  artifactKey: Guid(06f6f3b09f7bbb3479740a7c11bf683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/TileMap2_3/plains_66.asset using Guid(06f6f3b09f7bbb3479740a7c11bf683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13ab53b915ffd18695ac4de7e2b11ea7') in 0.027319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.311246 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/walls/walls.png
+  artifactKey: Guid(bc51f522726b7914caafbe5973556666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/walls/walls.png using Guid(bc51f522726b7914caafbe5973556666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8581b129ccd93df49cf4fe8a8b3e9be') in 0.047969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 79.268970 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Path_Middle.png
+  artifactKey: Guid(4eaf720be4e4c954f9f3b2de6a3e6292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Path_Middle.png using Guid(4eaf720be4e4c954f9f3b2de6a3e6292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e87725368e38d7040c5532a14999307') in 0.024090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.146554 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab
+  artifactKey: Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab using Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '426132dfd5ab68df05e7834167221053') in 0.039891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 139.707971 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Grass_Middle.png
+  artifactKey: Guid(86f8bfdb4ab5ed84ea86d6db0a79d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Grass_Middle.png using Guid(86f8bfdb4ab5ed84ea86d6db0a79d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5edb327d2ec94d29ecfc2b07401af526') in 0.066427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.933635 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Water_Middle.png
+  artifactKey: Guid(7b57f2a205334f547b41d099c023fe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Water_Middle.png using Guid(7b57f2a205334f547b41d099c023fe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b81bf682e5c2da8ec03f7bf618617ac') in 0.026301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.014045 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Grass_Middle.png
+  artifactKey: Guid(86f8bfdb4ab5ed84ea86d6db0a79d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Grass_Middle.png using Guid(86f8bfdb4ab5ed84ea86d6db0a79d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d86e3759ad2bec12e1387b346b33434') in 0.023921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.362298 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Grass_Middle.asset
+  artifactKey: Guid(3eee79cdb51c9974d8bb06c3b802a979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Grass_Middle.asset using Guid(3eee79cdb51c9974d8bb06c3b802a979) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '70cc265c45dc2c4898d4c00aab32009e') in 0.028253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.752911 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab
+  artifactKey: Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab using Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '93d291e61b38d79f3eda803d2fd822b0') in 0.042669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 45.819225 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile.png
+  artifactKey: Guid(b00967c81b06dbe4c87835c55abe9530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile.png using Guid(b00967c81b06dbe4c87835c55abe9530) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97b2be4f5c24b4e3018fc6f3525983ef') in 0.023680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.455632 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile.png
+  artifactKey: Guid(b00967c81b06dbe4c87835c55abe9530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile.png using Guid(b00967c81b06dbe4c87835c55abe9530) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '376437ab89fa65ca28670f4b91eed7f1') in 0.095588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 10.391400 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_0.asset
+  artifactKey: Guid(76143fe92960cf04ca8f6abfcc3a52dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_0.asset using Guid(76143fe92960cf04ca8f6abfcc3a52dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73bfc19c95890118b441064ff0bca6cf') in 0.032783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_15.asset
+  artifactKey: Guid(8c795093b8d6e8e40bd1b26ab0beabb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_15.asset using Guid(8c795093b8d6e8e40bd1b26ab0beabb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c9e1511548ffca8b758a5603a7515e6') in 0.031600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_11.asset
+  artifactKey: Guid(680412c104798fc4799367a54aaf9692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_11.asset using Guid(680412c104798fc4799367a54aaf9692) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '12a87ac586695a6924e5fdc5e3a127ec') in 0.042907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_6.asset
+  artifactKey: Guid(42c01e0f31d563f4baa11dfee0eee0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_6.asset using Guid(42c01e0f31d563f4baa11dfee0eee0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '90e06be1d95ff3d28f67fb4f4ba77516') in 0.027932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_2.asset
+  artifactKey: Guid(975f8a6a2ed30d341b2243cd52bedfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_2.asset using Guid(975f8a6a2ed30d341b2243cd52bedfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '631af188319e167d1606ab6939a25af5') in 0.031474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_5.asset
+  artifactKey: Guid(e44f21559fca40748bc14f7e74706845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_5.asset using Guid(e44f21559fca40748bc14f7e74706845) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd1491435fa3b284667a2823c4341d350') in 0.029375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_13.asset
+  artifactKey: Guid(c88688827ee0c564c8a225d585c501c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_13.asset using Guid(c88688827ee0c564c8a225d585c501c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a964bc7176b4c0a423cd0c0f04630677') in 0.048434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_3.asset
+  artifactKey: Guid(3407bf5493e558041b14d1d94ae95b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/Cliff_Tile_3.asset using Guid(3407bf5493e558041b14d1d94ae95b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '85b6a3febe308de4409f8484e5e8a1a9') in 0.024290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 329.469723 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab
+  artifactKey: Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map3/map3.prefab using Guid(4543bc78ae32e584394053c596d9d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96c905a07e59311d8fceebb83ceccdc8') in 0.089604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 1314.520433 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map33/Dungeon_Tileset.png
+  artifactKey: Guid(b1400eef2ed3df24c89890b01c40ec9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map33/Dungeon_Tileset.png using Guid(b1400eef2ed3df24c89890b01c40ec9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68a8bf9370fccb8b03fe7df774168fca') in 0.219770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 52.875318 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map33/Dungeon_Tileset.png
+  artifactKey: Guid(b1400eef2ed3df24c89890b01c40ec9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map33/Dungeon_Tileset.png using Guid(b1400eef2ed3df24c89890b01c40ec9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4cf1fa155827847cee080d1beaf9fec3') in 0.041767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.926373 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map33/Dungeon_Tileset.png
+  artifactKey: Guid(b1400eef2ed3df24c89890b01c40ec9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map33/Dungeon_Tileset.png using Guid(b1400eef2ed3df24c89890b01c40ec9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f04cc0a3fcfc2533fbdad7a5a839efd8') in 0.015880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.101261 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map33/Dungeon_Tileset.png
+  artifactKey: Guid(b1400eef2ed3df24c89890b01c40ec9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map33/Dungeon_Tileset.png using Guid(b1400eef2ed3df24c89890b01c40ec9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b4a628095ac5e93ad7530e035b66625b') in 0.581144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 102
+========================================================================
+Received Import Request.
+  Time since last request: 49.005971 seconds.
+  path: Assets/Undead Survivor/Sprites/tilesets/map33/map33.prefab
+  artifactKey: Guid(ecee5ba93a8f5994aba348ac92b9764c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Sprites/tilesets/map33/map33.prefab using Guid(ecee5ba93a8f5994aba348ac92b9764c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a9f791837cbeeaf2952296d506440ca5') in 0.191852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 1146.866923 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(dc154e6b2dac1c94da1aedee5260cd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(dc154e6b2dac1c94da1aedee5260cd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c49d2eb808bb1ab4964b029a956510dc') in 0.004040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
