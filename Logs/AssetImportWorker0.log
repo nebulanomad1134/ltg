@@ -15,7 +15,7 @@ E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/pr
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-11449
+13179
 Successfully changed project path to: E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/prjfnfnf/Final-Survivor-main
 E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/prjfnfnf/Final-Survivor-main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/pr
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7532]  Target information:
+Player connection [10768]  Target information:
 
-Player connection [7532]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 1601107597 [EditorId] 1601107597 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10768]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 3673528470 [EditorId] 3673528470 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7532] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7532] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10768] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10768] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 13.76 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.84 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.45f1 (a13dfa44d684)
 [Subsystems] Discovering subsystems at path E:/Unity/Unity 2022.3.45f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Unity 2022.3.45f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Unity 2022.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/Unity 2022.3.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/Unity 2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005208 seconds.
-- Loaded All Assemblies, in  0.613 seconds
+Registered in 0.005779 seconds.
+- Loaded All Assemblies, in  0.504 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.398 seconds
-Domain Reload Profiling: 1010ms
-	BeginReloadAssembly (210ms)
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 843ms
+	BeginReloadAssembly (157ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (106ms)
-	LoadAllAssembliesAndSetupDomain (230ms)
-		LoadAssemblies (208ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (155ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (226ms)
-			TypeCache.Refresh (224ms)
-				TypeCache.ScanAssembly (199ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (201ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (399ms)
+	FinalizeReload (340ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (331ms)
+		SetupLoadedEditorAssemblies (281ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (222ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,50 +118,50 @@ Domain Reload Profiling: 1010ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.744 seconds
+- Loaded All Assemblies, in  1.206 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.389 seconds
-Domain Reload Profiling: 3147ms
-	BeginReloadAssembly (245ms)
+- Finished resetting the current domain, in  1.225 seconds
+Domain Reload Profiling: 2433ms
+	BeginReloadAssembly (174ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (1373ms)
-		LoadAssemblies (874ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (937ms)
+		LoadAssemblies (689ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (628ms)
-			TypeCache.Refresh (506ms)
-				TypeCache.ScanAssembly (441ms)
-			ScanForSourceGeneratedMonoScriptInfo (95ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1390ms)
+		AnalyzeDomain (346ms)
+			TypeCache.Refresh (284ms)
+				TypeCache.ScanAssembly (254ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1226ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1053ms)
+		SetupLoadedEditorAssemblies (984ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (767ms)
-			ProcessInitializeOnLoadMethodAttributes (128ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (704ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
 			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 9.34 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 6.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6256 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (418.8 KB). Loaded Objects now: 6725.
-Memory consumption went from 231.1 MB to 230.7 MB.
-Total: 7.222600 ms (FindLiveObjects: 0.999100 ms CreateObjectMapping: 0.272100 ms MarkObjects: 5.348400 ms  DeleteObjects: 0.598000 ms)
+Unloading 48 unused Assets / (417.3 KB). Loaded Objects now: 6725.
+Memory consumption went from 231.2 MB to 230.8 MB.
+Total: 10.574400 ms (FindLiveObjects: 2.734700 ms CreateObjectMapping: 0.598900 ms MarkObjects: 5.923200 ms  DeleteObjects: 1.307600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,267 +179,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 54411.863941 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/Damp Dungeon Sprites.png
-  artifactKey: Guid(cc269be5f1c53de4aba852079a19b9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/Damp Dungeon Sprites.png using Guid(cc269be5f1c53de4aba852079a19b9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 59292.061510 seconds.
+  path: Assets/Undead Survivor/Tiles/map5/grave.prefab
+  artifactKey: Guid(f4758387e79f2ac4d8172c6b02bcca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/map5/grave.prefab using Guid(f4758387e79f2ac4d8172c6b02bcca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5101a507fee81c3d8c5e6d5246c1794f') in 0.191764 seconds
+ -> (artifact id: '6de80260d92789eb3c3ab16464794fab') in 0.448121 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/Damp Dungeon Tileset.png
-  artifactKey: Guid(172e06daf02158d4c90cb3d05b063813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/Damp Dungeon Tileset.png using Guid(172e06daf02158d4c90cb3d05b063813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 3.900673 seconds.
+  path: Assets/Undead Survivor/Tiles/map5/allTiles.png
+  artifactKey: Guid(68a3e10a753d8334b98db3258ab6b063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/map5/allTiles.png using Guid(68a3e10a753d8334b98db3258ab6b063) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6d88e8ad7ae33f4bf03b57b9510c9b3f') in 0.032283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 27.036435 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/Damp Dungeon Sprites.png
-  artifactKey: Guid(cc269be5f1c53de4aba852079a19b9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/Damp Dungeon Sprites.png using Guid(cc269be5f1c53de4aba852079a19b9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ce83d0457af9af605a7c0892b84dcee4') in 0.020217 seconds
+ -> (artifact id: 'b362f9935ef8697a5bcdba6973024061') in 0.031135 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 17.140170 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/Damp Dungeon Sprites.png
-  artifactKey: Guid(cc269be5f1c53de4aba852079a19b9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/Damp Dungeon Sprites.png using Guid(cc269be5f1c53de4aba852079a19b9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 21.350698 seconds.
+  path: Assets/Undead Survivor/Tiles/map5/allTiles.png
+  artifactKey: Guid(68a3e10a753d8334b98db3258ab6b063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/map5/allTiles.png using Guid(68a3e10a753d8334b98db3258ab6b063) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ec28e6ebb5afb94a594bc26a024caac4') in 0.263568 seconds
+ -> (artifact id: '50b6647359ef37862f9a212307721d7a') in 1.139302 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 77
+Number of asset objects unloaded after import = 403
 ========================================================================
 Received Import Request.
-  Time since last request: 15.798779 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/dungeon.prefab
-  artifactKey: Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/dungeon.prefab using Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '840389aeaf0914efef8beef9ad291bed') in 0.328481 seconds
+  Time since last request: 14.800676 seconds.
+  path: Assets/Undead Survivor/Tiles/map5/allTiles_0.asset
+  artifactKey: Guid(44b64b6cc458ddf4c9f8a0981b8426e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/map5/allTiles_0.asset using Guid(44b64b6cc458ddf4c9f8a0981b8426e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '10f39d349e3ab4fbc6b7a350b1e7184a') in 0.091771 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 179
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 23.113477 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/Damp Dungeon Tileset.png
-  artifactKey: Guid(172e06daf02158d4c90cb3d05b063813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/Damp Dungeon Tileset.png using Guid(172e06daf02158d4c90cb3d05b063813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8598e3fbee0a68f5cdbe7678360a3635') in 0.020316 seconds
+  Time since last request: 0.000176 seconds.
+  path: Assets/Undead Survivor/Tiles/map5/allTiles_5.asset
+  artifactKey: Guid(4f5d5eff3c431894ab8e8c5d3df97a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/map5/allTiles_5.asset using Guid(4f5d5eff3c431894ab8e8c5d3df97a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d950f55ab6721c28c977b17c943f84c') in 0.041339 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 7.157400 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/Damp Dungeon Tileset.png
-  artifactKey: Guid(172e06daf02158d4c90cb3d05b063813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/Damp Dungeon Tileset.png using Guid(172e06daf02158d4c90cb3d05b063813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '851521264bcfd967fbca1c22e2dae245') in 0.188108 seconds
+  Time since last request: 0.000068 seconds.
+  path: Assets/Undead Survivor/Tiles/map5/allTiles_4.asset
+  artifactKey: Guid(b5abef5ce3cbdf443b5c937f0527c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/map5/allTiles_4.asset using Guid(b5abef5ce3cbdf443b5c937f0527c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3ddadb761c87e10a923e8a346ad5eca6') in 0.025318 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 47
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 10.662995 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/dungeon.prefab
-  artifactKey: Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/dungeon.prefab using Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cfb5c1034c59a6caaf50056716973b71') in 0.072636 seconds
+  Time since last request: 0.000055 seconds.
+  path: Assets/Undead Survivor/Tiles/map5/allTiles_6.asset
+  artifactKey: Guid(c0809f73b715c9e489bf3889a99dd588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/map5/allTiles_6.asset using Guid(c0809f73b715c9e489bf3889a99dd588) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dfede2a9b9f10e3a2e81616fc74c285c') in 0.025577 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 253
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 486.105105 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/Damp Dungeon Tileset.png
-  artifactKey: Guid(172e06daf02158d4c90cb3d05b063813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/Damp Dungeon Tileset.png using Guid(172e06daf02158d4c90cb3d05b063813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '79f4a8ae61469d69aff1c75ce6b240a7') in 0.545820 seconds
+  Time since last request: 0.000210 seconds.
+  path: Assets/Undead Survivor/Tiles/map5/allTiles_9.asset
+  artifactKey: Guid(71b9c00d269c503439dd953d488e4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/map5/allTiles_9.asset using Guid(71b9c00d269c503439dd953d488e4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09ec0badd6e4a1a8c55444409aeba9dc') in 0.028078 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 155
-========================================================================
-Received Import Request.
-  Time since last request: 12.879734 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/Damp Dungeon Tileset.png
-  artifactKey: Guid(172e06daf02158d4c90cb3d05b063813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/Damp Dungeon Tileset.png using Guid(172e06daf02158d4c90cb3d05b063813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0a941d5e019462653d84ce8debf0b2a7') in 0.505746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 155
-========================================================================
-Received Import Request.
-  Time since last request: 40.583825 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/dungeon.prefab
-  artifactKey: Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/dungeon.prefab using Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2a88fcf50b1f1c2294a0cbb2e72c236a') in 0.150688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 469
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.593 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.507 seconds
-Domain Reload Profiling: 5101ms
-	BeginReloadAssembly (2728ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2364ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (113ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (722ms)
-		LoadAssemblies (872ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (34ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1508ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1092ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (799ms)
-			ProcessInitializeOnLoadMethodAttributes (142ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Refreshing native plugins compatible for Editor in 8.23 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6089 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (387.7 KB). Loaded Objects now: 6886.
-Memory consumption went from 206.7 MB to 206.4 MB.
-Total: 14.056600 ms (FindLiveObjects: 2.232400 ms CreateObjectMapping: 0.460200 ms MarkObjects: 10.387700 ms  DeleteObjects: 0.968800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 519.103104 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/Damp Dungeon Tileset.png
-  artifactKey: Guid(172e06daf02158d4c90cb3d05b063813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/Damp Dungeon Tileset.png using Guid(172e06daf02158d4c90cb3d05b063813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a3d42b8a98118b7442134f4402892ac4') in 0.287767 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 47
-========================================================================
-Received Import Request.
-  Time since last request: 5.139356 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/dungeon.prefab
-  artifactKey: Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/dungeon.prefab using Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4d9bca0e69b2c476c832ef617648f719') in 0.384707 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 378
-========================================================================
-Received Import Request.
-  Time since last request: 26.867192 seconds.
-  path: Assets/Undead Survivor/Tiles/map3/dungeon.prefab
-  artifactKey: Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map3/dungeon.prefab using Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f7852ae67692a7848435723fc0460a79') in 0.165188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 361
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.718 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.695 seconds
-Domain Reload Profiling: 3410ms
-	BeginReloadAssembly (228ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (387ms)
-		LoadAssemblies (459ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (32ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (2696ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1461ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (14ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (218ms)
-			ProcessInitializeOnLoadAttributes (1065ms)
-			ProcessInitializeOnLoadMethodAttributes (145ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Refreshing native plugins compatible for Editor in 7.36 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6089 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (387.8 KB). Loaded Objects now: 7210.
-Memory consumption went from 207.3 MB to 206.9 MB.
-Total: 13.401700 ms (FindLiveObjects: 1.095300 ms CreateObjectMapping: 1.123700 ms MarkObjects: 10.547300 ms  DeleteObjects: 0.631400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
