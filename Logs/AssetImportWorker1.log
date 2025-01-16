@@ -15,7 +15,7 @@ E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/pr
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-3068
+11449
 Successfully changed project path to: E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/prjfnfnf/Final-Survivor-main
 E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/prjfnfnf/Final-Survivor-main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ E:/OneDrive - Hanoi University of Science and Technology/MSI lap/UNO/UNO/game/pr
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13308]  Target information:
+Player connection [8820]  Target information:
 
-Player connection [13308]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 607425768 [EditorId] 607425768 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8820]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 1652271632 [EditorId] 1652271632 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13308] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13308] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8820] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8820] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 30.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 15.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.45f1 (a13dfa44d684)
 [Subsystems] Discovering subsystems at path E:/Unity/Unity 2022.3.45f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Unity 2022.3.45f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Unity 2022.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/Unity 2022.3.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/Unity 2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005664 seconds.
-- Loaded All Assemblies, in  0.598 seconds
+Registered in 0.010924 seconds.
+- Loaded All Assemblies, in  0.613 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.521 seconds
-Domain Reload Profiling: 1119ms
-	BeginReloadAssembly (290ms)
+- Finished resetting the current domain, in  0.399 seconds
+Domain Reload Profiling: 1010ms
+	BeginReloadAssembly (201ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (174ms)
-		LoadAssemblies (286ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (198ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (172ms)
-			TypeCache.Refresh (170ms)
-				TypeCache.ScanAssembly (154ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (223ms)
+				TypeCache.ScanAssembly (199ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (522ms)
+	FinalizeReload (400ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (413ms)
+		SetupLoadedEditorAssemblies (329ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (17ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (300ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,50 +118,50 @@ Domain Reload Profiling: 1119ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.532 seconds
+- Loaded All Assemblies, in  1.685 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.941 seconds
-Domain Reload Profiling: 5473ms
-	BeginReloadAssembly (1084ms)
+- Finished resetting the current domain, in  1.434 seconds
+Domain Reload Profiling: 3142ms
+	BeginReloadAssembly (251ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (95ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (57ms)
 	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (97ms)
-	LoadAllAssembliesAndSetupDomain (2236ms)
-		LoadAssemblies (2452ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (1315ms)
+		LoadAssemblies (858ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (758ms)
-			TypeCache.Refresh (651ms)
-				TypeCache.ScanAssembly (536ms)
-			ScanForSourceGeneratedMonoScriptInfo (78ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1942ms)
+		AnalyzeDomain (580ms)
+			TypeCache.Refresh (451ms)
+				TypeCache.ScanAssembly (388ms)
+			ScanForSourceGeneratedMonoScriptInfo (89ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (1435ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1430ms)
+		SetupLoadedEditorAssemblies (1099ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (14ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (209ms)
-			ProcessInitializeOnLoadAttributes (1026ms)
-			ProcessInitializeOnLoadMethodAttributes (158ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (793ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 10.31 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 9.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6256 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (417.1 KB). Loaded Objects now: 6725.
-Memory consumption went from 231.2 MB to 230.8 MB.
-Total: 10.162300 ms (FindLiveObjects: 1.195500 ms CreateObjectMapping: 0.254900 ms MarkObjects: 7.816100 ms  DeleteObjects: 0.890500 ms)
+Unloading 48 unused Assets / (418.9 KB). Loaded Objects now: 6725.
+Memory consumption went from 231.1 MB to 230.6 MB.
+Total: 8.851400 ms (FindLiveObjects: 1.749100 ms CreateObjectMapping: 0.483900 ms MarkObjects: 5.940600 ms  DeleteObjects: 0.672500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,352 +179,185 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8217.883003 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_121.asset
-  artifactKey: Guid(f8382e528e5c3e445b0dc5ed64df4bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_121.asset using Guid(f8382e528e5c3e445b0dc5ed64df4bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3db1dc5ee09285c3fc258f286425354c') in 0.494634 seconds
+  Time since last request: 54411.832823 seconds.
+  path: Assets/Undead Survivor/Tiles/map3/dungeon.prefab
+  artifactKey: Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/map3/dungeon.prefab using Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d1b424c2e3b31656f9d189031d7e077') in 0.463751 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_122.asset
-  artifactKey: Guid(55c8c6e7a2042a0479cc3cb72298be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_122.asset using Guid(55c8c6e7a2042a0479cc3cb72298be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd0f1cd95917bac0a73825a434b93a9df') in 0.031645 seconds
+  Time since last request: 587.794682 seconds.
+  path: Assets/Undead Survivor/Tiles/map3/dungeon.prefab
+  artifactKey: Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/map3/dungeon.prefab using Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b16899e7289c04e86c7b3f94a4cadf66') in 0.095613 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 253
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_126.asset
-  artifactKey: Guid(b10360fc561caa84684563e678a86bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_126.asset using Guid(b10360fc561caa84684563e678a86bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0b112606a8d9a108bccd0952281c7fd9') in 0.047230 seconds
+  Time since last request: 13.340419 seconds.
+  path: Assets/Undead Survivor/Tiles/map3/dungeon.prefab
+  artifactKey: Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/map3/dungeon.prefab using Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '781a07fd17f86d993b830b28b5abeeb9') in 0.070458 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 253
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.596 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.506 seconds
+Domain Reload Profiling: 5103ms
+	BeginReloadAssembly (2735ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2370ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (112ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (694ms)
+		LoadAssemblies (848ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1507ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1094ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (785ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 8.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (387.8 KB). Loaded Objects now: 6790.
+Memory consumption went from 206.6 MB to 206.2 MB.
+Total: 15.403500 ms (FindLiveObjects: 2.655300 ms CreateObjectMapping: 0.582000 ms MarkObjects: 11.383200 ms  DeleteObjects: 0.777000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_130.asset
-  artifactKey: Guid(cc0d535bea7d7784c840a022e96f61fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_130.asset using Guid(cc0d535bea7d7784c840a022e96f61fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3c929dc79ec8ed6785facfdfb322ab9a') in 0.030994 seconds
+  Time since last request: 560.271524 seconds.
+  path: Assets/Undead Survivor/Tiles/map3/dungeon.prefab
+  artifactKey: Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Tiles/map3/dungeon.prefab using Guid(9cfa2658af91dde42ac181408cf2779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+In order to call GetTransformInfoExpectUpToDate, RendererUpdateManager.UpdateAll must be called first.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
+UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Runtime/UniversalRenderPipeline.cs:670)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Runtime/UniversalRenderPipeline.cs:575)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Runtime/UniversalRenderPipeline.cs:558)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Runtime/UniversalRenderPipeline.cs:384)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Runtime/UniversalRenderPipeline.cs line 670]
+
+ -> (artifact id: 'd869d18a2bf8d8ed16d9a507704f73c5') in 0.499615 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 378
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_139.asset
-  artifactKey: Guid(4c83a138f3d30ef449ae070a7cd294c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_139.asset using Guid(4c83a138f3d30ef449ae070a7cd294c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '172fbab8670b45f1dde195ebd602e1e9') in 0.026341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_127.asset
-  artifactKey: Guid(f1af3fa6bf583f84f824cecb4b287ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_127.asset using Guid(f1af3fa6bf583f84f824cecb4b287ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0b0f1a998507292b5a1082f5f46f1850') in 0.029048 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_137.asset
-  artifactKey: Guid(d5a4e6116cb998b458ddc21592d79527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_137.asset using Guid(d5a4e6116cb998b458ddc21592d79527) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3724d9c507040a1cec32583e73995c23') in 0.028254 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_131.asset
-  artifactKey: Guid(6b35cbbc05af77545ae5495673098964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_131.asset using Guid(6b35cbbc05af77545ae5495673098964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f5a602680aea5d455cff6049c1cabf58') in 0.053096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.744574 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_142.asset
-  artifactKey: Guid(22969ba47be331e41bf557f4dd4944d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_142.asset using Guid(22969ba47be331e41bf557f4dd4944d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'de0441d5e4bc8086db9cd07122ac7609') in 0.045916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_147.asset
-  artifactKey: Guid(458219c8f4d156e4290a4ac03a0891b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_147.asset using Guid(458219c8f4d156e4290a4ac03a0891b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'deb6dbf29364689f903d1500d626919b') in 0.025168 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_148.asset
-  artifactKey: Guid(9d101fc86e737a542a3e9789e909f6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_148.asset using Guid(9d101fc86e737a542a3e9789e909f6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b010767cceee583adc7a07135d4d8c7e') in 0.026866 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_151.asset
-  artifactKey: Guid(a2ba432781fda04479b5e647377aefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_151.asset using Guid(a2ba432781fda04479b5e647377aefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f171a711366a8aff7c7c7d36863368e5') in 0.023213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_144.asset
-  artifactKey: Guid(a150a12d783d6ad4ea801beb9f742d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_144.asset using Guid(a150a12d783d6ad4ea801beb9f742d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ad3c41d073ef1aec6d9cb609edfeff87') in 0.032892 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_152.asset
-  artifactKey: Guid(d928d47be9d644c4ba27e5acdaa86e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_152.asset using Guid(d928d47be9d644c4ba27e5acdaa86e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c2532b95c0b14513b1e2d8ba3a02b0bc') in 0.027103 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.480818 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_154.asset
-  artifactKey: Guid(27ed1dacaa46b3146802c6dd0d4d149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_154.asset using Guid(27ed1dacaa46b3146802c6dd0d4d149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '35df0ba14d752b38e6e574b433c82cc6') in 0.025119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_155.asset
-  artifactKey: Guid(9f93e0bdc54518142a3a78971557655b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_155.asset using Guid(9f93e0bdc54518142a3a78971557655b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3caac5794208dd6bf4cb454fc79d52e8') in 0.027743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_157.asset
-  artifactKey: Guid(a8690e5a35406e84fb7d45d653180ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_157.asset using Guid(a8690e5a35406e84fb7d45d653180ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '277bde314431c5e7585c3c4338268bfb') in 0.012899 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_158.asset
-  artifactKey: Guid(2e63076c6c0811d41b756a423159c69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_158.asset using Guid(2e63076c6c0811d41b756a423159c69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '54bb01767746c18ea4ad59bb0552b487') in 0.027757 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.002483 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_161.asset
-  artifactKey: Guid(6bf46874d4006a940867ad3b91cb3c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_161.asset using Guid(6bf46874d4006a940867ad3b91cb3c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9f01962fec97f1871e4c67bb4458a6f4') in 0.030735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_163.asset
-  artifactKey: Guid(add0dda725adc9044a5fdea7c10fd3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_163.asset using Guid(add0dda725adc9044a5fdea7c10fd3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '99b52c0cff069c751c20c35ec4b84b41') in 0.025775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_170.asset
-  artifactKey: Guid(3c7c0a88131d20441a0de06052ab08da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_170.asset using Guid(3c7c0a88131d20441a0de06052ab08da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e2dbd30e53480dcf7bc2e8639c9a0b8c') in 0.026535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_167.asset
-  artifactKey: Guid(0d516d8ad1865074286b863449583285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_167.asset using Guid(0d516d8ad1865074286b863449583285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cf6ed64a55b12919cb1fae994f4bae92') in 0.025639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_172.asset
-  artifactKey: Guid(ff593d319f5f1594eaa89286f17b7522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_172.asset using Guid(ff593d319f5f1594eaa89286f17b7522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5a04794dc0483b48e56b32cd11c58f7f') in 0.026672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_166.asset
-  artifactKey: Guid(c275097542a817d408676ebed5bc70b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_166.asset using Guid(c275097542a817d408676ebed5bc70b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9d81becee439263922bfa76a361391db') in 0.026358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.119731 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_174.asset
-  artifactKey: Guid(752e4f5d5f668bb4abd262ede7494204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_174.asset using Guid(752e4f5d5f668bb4abd262ede7494204) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'eb6f3c92661291c6fd9a5dc8c01f3b56') in 0.033111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_179.asset
-  artifactKey: Guid(b7351ebfca8a2214eb040574ad810d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_179.asset using Guid(b7351ebfca8a2214eb040574ad810d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ebf003b9ea1c3bdc409443a4c7a97634') in 0.033468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_178.asset
-  artifactKey: Guid(12d5277cf05de8d41ba6be2f18543202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_178.asset using Guid(12d5277cf05de8d41ba6be2f18543202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9d88cb35d625e1cc4ddabdd5cc42d096') in 0.042829 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_187.asset
-  artifactKey: Guid(d67cb629b979f2f4092b0b9889596bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_187.asset using Guid(d67cb629b979f2f4092b0b9889596bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3eb3402372131034a6eaea3c4dd26a10') in 0.050537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_182.asset
-  artifactKey: Guid(1f8bcbec08bc937439d50ca790c5e474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_182.asset using Guid(1f8bcbec08bc937439d50ca790c5e474) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4da31443ea415a2fd708f9a85f59e43e') in 0.038275 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_184.asset
-  artifactKey: Guid(f69b654549ef6094f9f43137d8888166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_184.asset using Guid(f69b654549ef6094f9f43137d8888166) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f7656c1a7e0bac98b69123db5284054f') in 0.038872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_177.asset
-  artifactKey: Guid(843846b91717b194c9c7afc9c0adf0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_177.asset using Guid(843846b91717b194c9c7afc9c0adf0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '216c7eb4ce5f29ab5a9c8acaab213ced') in 0.033437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_192.asset
-  artifactKey: Guid(34d0f5bff18abf147a94e0f661156607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_192.asset using Guid(34d0f5bff18abf147a94e0f661156607) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7d984c4ab8d0a3e6182e152979fa12cd') in 0.028111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_193.asset
-  artifactKey: Guid(df5b4e158b7ac794794b2beef7050b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_193.asset using Guid(df5b4e158b7ac794794b2beef7050b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3aacc6ed0b4b01c0053bc428fb88f4e4') in 0.036318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_202.asset
-  artifactKey: Guid(c0bbca3d622b44b4e98768f1b2a82453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_202.asset using Guid(c0bbca3d622b44b4e98768f1b2a82453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0bae395f72756940045f5b4f791632f7') in 0.015793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_198.asset
-  artifactKey: Guid(34132f5d118bd3c4f86f0af994c29718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_198.asset using Guid(34132f5d118bd3c4f86f0af994c29718) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '37e85a81d9b6b2a3892cd6080e7b1cf6') in 0.035007 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_201.asset
-  artifactKey: Guid(97037628c5211ff4584bab2c249a56b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_201.asset using Guid(97037628c5211ff4584bab2c249a56b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8f3949770d2f7c2f28b72b847f610deb') in 0.038253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_200.asset
-  artifactKey: Guid(06a77bc9f8dd33e40a5cb13e87164064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_200.asset using Guid(06a77bc9f8dd33e40a5cb13e87164064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5dec79cf65e70a009ddf26e240a5634f') in 0.053798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_175.asset
-  artifactKey: Guid(426e278e1ab93984381afafc4ef71cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_175.asset using Guid(426e278e1ab93984381afafc4ef71cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '78d67cd15780e9c9a06bc19b6414c242') in 0.068110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_189.asset
-  artifactKey: Guid(29d98314103e025468bf099bc0733f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Undead Survivor/Tiles/map4/tiles/seasonal sample (spring)_189.asset using Guid(29d98314103e025468bf099bc0733f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9de713e7d01ed8b7e16d863261c60daf') in 0.058836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.734 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.677 seconds
+Domain Reload Profiling: 3409ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (460ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2678ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (221ms)
+			ProcessInitializeOnLoadAttributes (1071ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 8.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (387.9 KB). Loaded Objects now: 6934.
+Memory consumption went from 206.8 MB to 206.5 MB.
+Total: 13.422600 ms (FindLiveObjects: 1.188300 ms CreateObjectMapping: 0.874400 ms MarkObjects: 11.051000 ms  DeleteObjects: 0.306500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
